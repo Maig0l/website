@@ -1,0 +1,19 @@
+---
+title: English blog
+layout: default
+lang: en
+redirect_from: /
+---
+{% assign posts=site.posts | where:"lang", page.lang %}
+{% for post in posts %}
+	{% assign date=post.date | date: site.t['date-format'][page.lang] %}
+	<div class="blog-entry">
+		<h2 id="{{ post.slug }}"> {{ post.title }}</h2>
+		<small class="timestamp">{{ date }}</small>
+		<small class="links">[<a href="#{{ post.slug }}">link</a>&mdash;<a href="{{ post.url }}">standalone</a>]</small>
+		
+		{{ post.content }}
+	</div>
+
+	<hr>
+{% endfor %}

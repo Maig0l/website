@@ -1,0 +1,27 @@
+{% assign posts = site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }} - Maigol</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link rel='stylesheet' type='text/css' href='/assets/css/blog-entry.css'>
+		<link rel="shortcut icon" type="image/png" href="/assets/res/favicon.png">
+		<meta charset='utf-8'/>
+	</head>
+
+	<body>
+		<a class="entry-title" href="{{ page.base-url }}blog.html#{{ page.slug }}"><h1>{{ page.title }}</h1></a>
+		{% if posts.size > 1 %}
+		&mdash;
+		{% endif %}
+		{% for post in posts %}{% if post.lang != page.lang %}
+			<a class="alt-lang" href="{{ site.base-url }}{{ post.url }}">
+				{{ site.t['i18n-icon'][post.lang] }}
+			</a>
+		{% endif %}{% endfor %}
+
+		{{ content }}
+
+		<footer>{{ site.t['published-date'][page.lang] }} <i>{{ page.date | date: site.t['date-format'][page.lang] }}</i></footer>
+	</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Startpage</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<div class="searchbox animated">
+			<input type="input" name="search" id="search" placeholder="Search with Startpage" class="search-text" autocomplete="off" autofocus="">
+			<button type="submit" onclick="search()"></button>
+		</div>
+
+		<div class="bookmarks">
+			<!--Youtube-->
+			<div class="col">
+				<a class="head" href="https://youtube.com"><img src="icons/youtube.svg"></a>
+				<a href="https://youtube.com/feed/subscriptions">Subscriptions</a>
+				<a href="https://youtube.com/playlist?list=WL">Watch Later</a>
+				<a href="https://youtube.com/playlist?list=PLQRulr8_OZ2Bbcp3cY7sR1IvMq-wce9WE">Music Playlist</a>
+			</div>
+
+			<!--Reddit-->
+			<div class="col">
+				<a class="head" href="https://old.reddit.com"><img src="icons/reddit.svg"></a>
+				<a href="https://old.reddit.com/r/Argentina">r/Argentina</a>
+				<a href="https://old.reddit.com/r/Undertale">r/Undertale</a>
+				<a href="https://old.reddit.com/r/Deltarune">r/Deltarune</a>
+				<a href="https://old.reddit.com/r/PixelArt">r/PixelArt</a>
+				<a href="https://old.reddit.com/r/Wallpapers">r/Wallpapers</a>
+			</div>
+			
+			<!--Movies-->
+			<div class="col">
+				<img class="head" src="icons/movies.svg">
+				<a href="https://netflix.com">Netflix</a>
+				<a href="http://localhost:32400">Plex</a>
+				<a href="https://nyaa.si">Nyaa.si</a>
+				<a href="https://cinecalidad.is">CineCalidad</a>
+			</div>
+
+			<!--Music-->
+			<div class="col">
+				<img class="head" src="icons/music.svg">
+				<a href="https://soundcloud.com">Soundcloud</a>
+				<a href="https://maigol.xyz/music.php">My playlists</a>
+				<a href="https://youtube.com/watch?v=hHW1oY26kxQ">Lo-fi radio</a>
+			</div>
+
+			<!--Websites-->
+			<div class="col">
+				<img class="head" src="icons/world.svg">
+				<a href="https://web.whatsapp.com">Whatsapp Web</a>
+				<a href="https://translate.google.com">Google Translate</a>
+				<a href="https://wink.messengergeek.com">MessengerGeek</a>
+				<a href="http://waifu2x.udp.jp/">Waifu2x</a>
+				<a href="https://flaticon.com">Flaticon</a>
+			</div>
+		</div>
+
+		<div class="credits">
+			<a href="credits.html">credits</a>
+		</div>
+		<script src="search.js"></script>
+	</body>
+</html>

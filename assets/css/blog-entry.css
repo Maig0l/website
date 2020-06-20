@@ -1,0 +1,18 @@
+@import "styles.css";
+
+body, h1 {
+	text-align: left;
+}
+
+.entry-title h1 {
+	display: inline;
+}
+
+.alt-lang {
+	font-size: 20px;
+	margin: 0 5px;
+}
+
+footer {
+	text-align: right;
+}

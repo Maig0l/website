@@ -1,0 +1,44 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64">
+<defs>
+<path id="Layer3_0_1_STROKES" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 8.55 42.2
+L 8.5 31.55
+Q 8.5068359375 31.3244140625 8.525 31.1 8.9263671875 23.9693359375 15.4 18.95 22.3 13.55 32 13.55 41.7 13.55 48.55 18.95 55.427734375 24.2828125 55.45 32
+L 55.4 42.8
+M 60.45 55.45
+L 60.45 43.3
+M 3.55 55.45
+L 3.55 43.3"/>
+
+<path id="Layer3_1_1_STROKES" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 13.35 32
+L 13.85 32
+Q 15.65 32 16.9 33.25 18.15 34.5 18.15 36.3
+L 18.15 55.65
+Q 18.15 57.65 16.75 59.05 15.35 60.45 13.35 60.45 11.35 60.45 9.95 59.05 8.55 57.65 8.55 55.65
+L 8.55 36.8
+Q 8.55 34.8 9.95 33.4 11.35 32 13.35 32 Z"/>
+
+<path id="Layer3_2_1_STROKES" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 13.35 32
+L 13.85 32
+Q 15.65 32 16.9 33.25 18.15 34.5 18.15 36.3
+L 18.15 55.65
+Q 18.15 57.65 16.75 59.05 15.35 60.45 13.35 60.45 11.35 60.45 9.95 59.05 8.55 57.65 8.55 55.65
+L 8.55 36.8
+Q 8.55 34.8 9.95 33.4 11.35 32 13.35 32 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer3_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 0.773284912109375, 0,13.75) ">
+<use xlink:href="#Layer3_1_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 0.773284912109375, 37.25,13.75) ">
+<use xlink:href="#Layer3_2_1_STROKES"/>
+</g>
+</svg>

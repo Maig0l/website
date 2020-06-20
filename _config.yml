@@ -1,0 +1,33 @@
+plugins:
+    - jekyll-redirect-from
+
+permalink: /:categories/blog/:slug:output_ext
+
+defaults:
+    -
+     scope:
+         path: ""
+     values:
+        author: "Maigol"
+        layout: post
+
+        lang: en
+        base-url: "/"
+
+    -
+     scope:
+        path: "es"
+     values:
+        lang: es
+        base-url: "/es/"
+
+t:
+    published-date:
+        en: "Published on"
+        es: "Publicado el"
+    date-format:
+        en: "%-m/%-d/%Y"
+        es: "%-d/%-m/%Y"
+    i18n-icon:
+        en: "🇬🇧"
+        es: "🇦🇷"

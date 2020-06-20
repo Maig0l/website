@@ -1,0 +1,172 @@
+@font-face {
+	font-family: "Nunito";
+	font-weight: 400;
+	src: url("fonts/nunito-regular.ttf");
+}
+
+@font-face {
+	font-family: "Nunito";
+	font-weight: 700;
+	src: url("fonts/nunito-bold.ttf");
+}
+
+html { height: 100% }
+
+body {
+	height: 100%; margin: 0; overflow-y: hidden;
+	font-family: "Nunito";
+	background: rgb(173,0,218);
+	background: linear-gradient(142deg, rgba(173,0,218,1) 0%, rgba(44,54,218,1) 100%); 
+}
+
+.searchbox {
+	display: flex;
+	min-width: 715px;
+	width: 75vw;
+	height: 75px;
+	margin: 5em auto;
+	padding: 0 25px;
+	background-color: rgba(163, 148, 221, .6);
+	justify-content: space-between;
+	border-radius: 50px;
+}
+
+.search-text {
+	width: 70vw;
+	background: rgba(0,0,0,0);
+	border: #000 0px;
+	font-size: 3em;
+	color: #111;
+}
+
+.searchbox > button {
+	background: no-repeat center/80% url("icons/search-icon.svg");
+	border: 0px;
+	width: 60px;
+}
+
+.bookmarks {
+	display: flex;
+	font-size: 1.5em;
+	margin: 30vh auto;
+	justify-content: center;
+}
+
+.bookmarks > .col {
+	display: flex;
+	flex-direction: column;
+	margin: 0 1vw;
+}
+
+.bookmarks > .col > .head {
+	height: 2em;
+	text-align: center;
+	margin-bottom: .5em;
+}
+
+.bookmarks > .col > a {
+	text-decoration: none;
+	color: #111;
+	transition: 0.2s;
+}
+
+.bookmarks > .col > a:hover {
+	filter: drop-shadow(-2px 3px 2px #DDD8);
+}
+
+img {
+	height: 100%;
+	vertical-align: top;
+}
+
+.credits {
+	position: absolute;
+	bottom: .5em;
+	right: .5em;
+	font-size: 1em;
+}
+.credits > a {
+	color: #131559;
+	text-decoration: none;
+}
+
+.credits-box {
+	display: inline-block;
+	width: 615px;
+	text-align: center;
+	font-size: 1.2em;
+	position: absolute;
+	left: calc(50% - 15px);
+	top: calc(30vh - 50px);
+	margin-left: -307px;
+	background: #DDD2;
+	padding: 15px;
+	border-radius: 15px;
+	border: solid 5px #2225;
+}
+.credits-box a {
+	color: #131559;
+}
+
+/*** EXTRACTED FROM ANIMATE.CSS (https://daneden.github.io/animate.css/) ***/
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+@-webkit-keyframes shake {
+	from,
+	to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70%,
+	90% {
+		-webkit-transform: translate3d(-10px, 0, 0);
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	20%,
+	40%,
+	60%,
+	80% {
+		-webkit-transform: translate3d(10px, 0, 0);
+		transform: translate3d(10px, 0, 0);
+	}
+}
+
+@keyframes shake {
+	from,
+	to {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70%,
+	90% {
+		-webkit-transform: translate3d(-10px, 0, 0);
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	20%,
+	40%,
+	60%,
+	80% {
+		-webkit-transform: translate3d(10px, 0, 0);
+		transform: translate3d(10px, 0, 0);
+	}
+}
+
+.shake {
+	-webkit-animation-name: shake;
+	animation-name: shake;
+}

@@ -1,0 +1,14 @@
+- name: 🇦🇷 Blog
+  link: /es/blog.html
+
+- name: 🇬🇧 Blog
+  link: /blog.html
+
+- name: <img src="/assets/res/stuff.svg"/> Stuff
+  link: /stuff.html
+
+- name: <img src="/assets/res/music.svg"/> Music
+  link: /music.html
+
+  #- name: <img src="/assets/res/about.svg"/> About
+  #link: /about.html

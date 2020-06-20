@@ -1,0 +1,59 @@
+@import "styles.css";
+
+body {
+	min-width: 270px;
+}
+
+h1, h3 {
+	display: inline-block;
+	margin-bottom: 0;
+	color: #202020;
+}
+
+h1 {
+	font-size: 40px;
+	margin-top: 0;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 4px;
+	border: 6px solid #EEE;
+	min-width: 270px;
+	max-width: calc(100% - 14px);
+}
+
+.message::before, .message::after { 
+	content: "";
+	position: absolute;
+
+	background-image: url("../res/tab-tail.svg");
+	background-size: 30px;
+	width: 30px;
+	height: 30px;
+	top: 30px;
+	filter: brightness(93%);
+}
+
+.message::before { /*LEFT*/
+	left: -30px;
+}
+
+.message::after { /*RIGHT*/
+	transform: scaleX(-1);
+	right: -30px;
+}
+
+.message {
+	display: inline-block;
+	position: relative;
+	background-color: #EEE;
+	margin-top: 64px;
+	padding: 0 7px 0 5px;
+	border-radius: 30px 30px 0 0;
+}
