@@ -6,7 +6,7 @@ title: Music
 
 <div class="playlist-list">
 {% for pl in site.data.playlists %}
-<span class="playlist {% if pl.platform != "spotify" %}{{ pl.platform }}{% endif %}">
+	<span class="playlist {% if pl.platform != "spotify" %}{{ pl.platform }}{% endif %}">
 		<img src="/assets/media/playlists/{{ pl.icon }}" />
 		<b>{{ pl.name }}</b>
 		<i>{{ pl.description }}</i>
