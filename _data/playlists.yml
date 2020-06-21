@@ -1,0 +1,89 @@
+- name: Checkpoint
+  description: Congrats on getting this far; you may now rest...
+  icon: checkpoint.jpg
+  link: spotify:playlist:4Hd08YHN6veZAX76Tf0mLr
+  platform: spotify
+
+- name: Chillax
+  description: Take a deep breath and, just... zzz
+  icon: chillax.jpg
+  link: spotify:playlist:3RBGqTwoaJ5LNBtschtB9H
+  platform: spotify
+
+- name: Chiptune
+  description: Fresh tunes coming straight out of your NES.
+  icon: chiptune.jpg
+  link: spotify:playlist:6KaSoU5SMexyesaRbYvcsn
+  platform: spotify
+
+- name: Cute
+  description: Happy, anime-styled and, overall, cute music
+  icon: cute.jpg
+  link: spotify:playlist:4qOh7HGXc0BboRLz7D7Oq8
+  platform: spotify
+
+- name: Fallin' in love
+  description: Songs for your heart to beat along ❤
+  icon: fallin-in-love.jpg
+  link: spotify:playlist:7JcjyJTke7NaaU050m8zJ5
+  platform: spotify
+
+- name: Guitars & Screams & Stuff
+  description: get it? because it's a rock playlist
+  icon: guitars-screams-stuff.jpg
+  link: spotify:playlist:5Ag5FIwGytVDQEy5GDkQDS
+  platform: spotify
+
+- name: Industria Nacional
+  description: Un país de mierda, pero con buena musica
+  icon: industria-nacional.jpg
+  link: spotify:playlist:5ym9GCd2JwDpR2fH5rqAYa
+  platform: spotify
+
+- name: Move your god damn feet!
+  description: Energetic music to dance to
+  icon: move-your-god-damn-feet.jpg
+  link: spotify:playlist:6GOZK7wxe8GSMnrqnbF4J6
+  platform: spotify
+
+- name: Music Playlist
+  description: Some music I like. Proceed with caution.
+  icon: music-playlist.jpg
+  link: spotify:playlist:2dMj7ndq0leAMgdN01ARr9
+  platform: spotify
+
+- name: Nostalgic Vibes
+  description: Synths, reverb, and more reberb.
+  icon: nostalgic-vibes.jpg
+  link: spotify:playlist:6kqimLVej9gYrnIgBZZF8M
+  platform: spotify
+
+- name: the big sad
+  description: sad or emotional music to cry to
+  icon: the-big-sad.jpg
+  link: spotify:playlist:0x34C3Z8ZVmudLBKbECuOu
+  platform: spotify
+
+- name: The Zone
+  description: Frenetic instrumentals for when you get zoned.
+  icon: the-zone.jpg
+  link: spotify:playlist:0ORiW9Qdjma5sqbUoDFEDd
+  platform: spotify
+
+- name: (T)rap
+  description: yuh,, yuh,, sKRRRrrt
+  icon: trap.jpg
+  link: spotify:playlist:5pzSev0ufH54icps31KbZb
+  platform: spotify
+
+- name: SoundCloud likes
+  description: I haven't made specific playlists in SoundCloud.
+  icon: soundcloud-likes.gif
+  link: https://soundcloud.com/maigols-music/likes
+  platform: soundcloud
+
+- name: Music Playlist (YT)
+  description: My original playlist on Youtube
+  icon: music-playlist.jpg
+  link: https://www.youtube.com/playlist?list=PLQRulr8_OZ2Bbcp3cY7sR1IvMq-wce9WE
+  platform: youtube
