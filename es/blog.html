@@ -1,10 +1,12 @@
 ---
 title: Blog en español
 layout: default
-lang: es
 redirect_from: /es/
 ---
 {% assign posts=site.posts | where:"lang", page.lang %}
+{% if posts.size == 0 %}
+	<p>Nada que ver por acá... todavía.</p>
+{% endif %}
 {% for post in posts %}
 	{% assign date=post.date | date: site.t['date-format'][page.lang] %}
 	<div class="blog-entry">
