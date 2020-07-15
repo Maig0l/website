@@ -10,8 +10,13 @@ redirect_from: /
 {% for post in posts %}
 	{% assign date=post.date | date: site.t['date-format'][page.lang] %}
 	<div class="blog-entry">
-		<a href="{{ post.url }}"><h2 id="{{ post.slug }}"> {{ post.title }}</h2></a>
+		<a href="{{ post.url }}"><h2 id="{{ post.slug }}">{{ post.title }}</h2></a>
 		<small class="timestamp">{{ date }}</small>
+		{% if post.tags.size != 0 %}
+			<small class="links">Tags:
+				{{ post.tags | join: ', ' | capitalize }}
+			</small>
+		{% endif %}
 		
 		{{ post.excerpt }}
 	</div>
