@@ -47,7 +47,7 @@
   platform: spotify
 
 - name: Music Playlist
-  description: Some music I like. Proceed with caution.
+  description: Some songs I like. Proceed with caution.
   icon: music-playlist.jpg
   link: spotify:playlist:2dMj7ndq0leAMgdN01ARr9
   platform: spotify

@@ -13,6 +13,23 @@ body, h1 {
 	margin: 0 5px;
 }
 
+img {
+	width: 50%;
+}
+
+.float {
+	float: right;
+}
+
 footer {
 	text-align: right;
 }
+
+@media screen and (max-width: 720px) {
+	.float { float: none }
+}
+
+@media screen and (max-width: 500px) {
+	img { width: 90% }
+}
+

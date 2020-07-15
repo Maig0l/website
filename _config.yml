@@ -8,6 +8,8 @@ defaults:
      scope:
          path: ""
      values:
+        blog-media: "/assets/media/blog"
+        excerpt_separator: "<!--more-->"
         author: "Maigol"
         layout: post
 

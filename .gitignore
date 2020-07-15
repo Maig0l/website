@@ -1,5 +1,9 @@
 _site
 .sass-cache
 .jekyll-cache
+.cache
 .jekyll-metadata
 vendor
+blog-drafts
+_drafts
+es/_drafts
