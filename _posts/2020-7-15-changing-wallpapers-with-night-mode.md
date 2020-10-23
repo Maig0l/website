@@ -12,7 +12,7 @@ The solution seems obvious: _change the wallpaper whenever I change the system t
 
 At first, I thought there would already be some app that could do this automatically.
 [Turns out there _is_](https://play.google.com/store/apps/details?id=com.cannic.apps.automaticdarktheme), but what I need it for is just a tiny feature inside a more complex application.
-Too much for too little.
+In other words: _Filthy bloat._
 
 Then, I remembered _another_, more useful app called [Automate](https://play.google.com/store/apps/details?id=com.llamalab.automate).
 Although it can still do way more than just changing a wallpaper, it's not a problem because that isn't the only thing I need it for.

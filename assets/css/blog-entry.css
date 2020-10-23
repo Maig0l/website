@@ -13,6 +13,10 @@ body, h1 {
 	margin: 0 5px;
 }
 
+p {
+	margin: 0 auto 15px;
+}
+
 img {
 	width: 50%;
 }

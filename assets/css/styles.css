@@ -91,11 +91,12 @@ h1 {
 }
 
 .blog-entry h2 {
+	margin: 5px auto 0;
 	display: inline-block;
 }
 
-h2, p {
-	margin: 5px auto 0;
+.blog-entry p {
+	margin: 0 auto 10px;
 }
 
 h3 {
