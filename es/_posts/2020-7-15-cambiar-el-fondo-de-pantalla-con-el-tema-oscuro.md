@@ -1,6 +1,7 @@
 ---
 title: Cambiar el fondo de pantalla con el tema oscuro
 i18n-link: theme-sensitive-wp-automate
+tags: automate android
 ---
 La mayor parte del tiempo uso el tema oscuro en mi teléfono, pero aveces (generalmente cuando estoy fuera) necesito desactivarlo para ver qué hay en mi pantalla.
 
