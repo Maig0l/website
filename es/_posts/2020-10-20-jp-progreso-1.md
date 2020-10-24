@@ -6,7 +6,7 @@ tags: japonés
 
 Hace poco más de dos semanas terminé de estudiar (la mitad) de los kanjis japoneses!
 Usé el mazo de cartas Anki "Recognition RTK" de [MIA](https://massimmersionapproach.com/table-of-contents/stage-1/jp-quickstart-guide).
-Hubo días difíciles, pero cuando las imágenes mentales que me hice tenían sentido, la sensación de aprender era _increíble_.
+Me tomó dos meses y hubo días difíciles, pero cuando las imágenes mentales que me hice tenían sentido, la sensación de aprender era _increíble_.
 
 De hecho, con esto ya puedo leer! (lento, pero puedo) con un diccionario y algo de intuición, y estoy bastante emocionado por eso.
 Es lento y tedioso, pero de nuevo: ya de por sí el hecho de poder hacerlo se siente muy bien, y además, se que con práctica y estudio me va a ser cada vez más fácil, cosa que me mantiene motivado.
