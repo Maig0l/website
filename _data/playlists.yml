@@ -87,3 +87,9 @@
   icon: music-playlist.jpg
   link: https://www.youtube.com/playlist?list=PLQRulr8_OZ2Bbcp3cY7sR1IvMq-wce9WE
   platform: youtube
+
+- name: Kitsune² Favs
+  description: My favorite tracks from Kitsune²
+  icon: kitsune2-favs.jpg
+  link: https://www.youtube.com/playlist?list=PLQRulr8_OZ2C_3Ff2yPBVMvd_BLVegBv6
+  platform: youtube
